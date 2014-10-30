@@ -23,3 +23,8 @@ Checks the right and left sides of the BST to see where the highest tree is.
 ##balance()
 
 Mimics the depth function, but instead of just finding the highest tree, this function compares how balanced the left tree is to the right tree. If the right tree is higher than the left tree, it returns a negative number.
+
+Sources:
+
+Wikipedia: http://en.wikipedia.org/wiki/Binary_search_tree
+StackOverflow: http://stackoverflow.com/questions/575772/the-best-way-to-calculate-the-height-in-a-binary-search-tree-balancing-an-avl
