@@ -24,6 +24,26 @@ Checks the right and left sides of the BST to see where the highest tree is.
 
 Mimics the depth function, but instead of just finding the highest tree, this function compares how balanced the left tree is to the right tree. If the right tree is higher than the left tree, it returns a negative number.
 
+##balance()
+
+Mimics the depth function, but instead of just finding the highest tree, this function compares how balanced the left tree is to the right tree. If the right tree is higher than the left tree, it returns a negative number.
+
+##breadthFirst()
+
+Traverses the tree by level. Checks from left to right the nodes and returns the value in that order.
+
+##inOrder()
+
+Traverses the leftmost tree, then the center tree(node), then the rightmost tree.
+
+##preOrder()
+
+Traverses the center tree(node), then the leftmost, then the rightmost.
+
+##postOrder()
+
+Traverses the leftmost, then the rightmost, then the center.
+
 Sources:
 
 Wikipedia: http://en.wikipedia.org/wiki/Binary_search_tree
